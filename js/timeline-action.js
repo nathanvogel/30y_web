@@ -288,6 +288,8 @@ document.addEventListener("timeline-scroll", function(e) {
 
   }
 
+  window.goToDot = goToDot;
+
   $(document).on('click','.timeDot', function() {
     //console.log("[timeline-action.js] ********************************");
     //console.log("[timeline-action.js] Click on dot");

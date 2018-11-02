@@ -28,9 +28,18 @@ var sendMessage = function(msg) {
 // });
 
 // Listen to message from child window
-// bindEvent(window, 'message', (e) => {
-//     results.innerHTML = e.data;
-// });
+bindEvent(window, "message", e => {
+  console.log(e.data);
+  var data = JSON.parse(e.data);
+  console.log(data.id);
+  console.log("Hey");
+  let dot = $(".timeDot[idToLoad='" + data.id + "']");
+  console.log("Hey");
+  dot.click();
+  window.goToDot(dot);
+  console.log(dot);
+  // console.log(goToDot);
+});
 
 $(document).ready(() => {
   // Add iframe

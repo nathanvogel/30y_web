@@ -22,7 +22,6 @@ $(document).ready(function(){
      let dot = $(".timeDot[idToLoad='" + dotID + "']");
      dot.attr("startdate");
      console.log("Loaded date : "+dot.attr("startdate"));
-     $('#container-main').html(dotDate.format("DD/MM/YYYY"));
 
     });
 });

@@ -1,0 +1,3 @@
+[submodule "nathan/project"]
+	path = nathan/project
+	url = https://github.com/nathanvogel/30y_of_hacks

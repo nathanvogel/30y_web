@@ -11,7 +11,7 @@ function bindEvent(element, eventName, eventHandler) {
 
 // Create project iframe
 var iframe = document.createElement("iframe");
-iframe.setAttribute("src", "./project/index.html");
+iframe.setAttribute("src", "./project");
 iframe.style.width = "100%";
 iframe.style.height = "100%";
 // document.body.appendChild(iframe);
